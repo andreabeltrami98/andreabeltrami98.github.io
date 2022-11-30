@@ -7,77 +7,107 @@
     
 <body>
     
-    <div class='section-menu'>
-        <div class='menu'>
+    <header class='header'>
+        <nav class='navbar'>
             <div class='logo'>ANDREA BELTRAMI</div>
-            <div class='navbar'>
-                <ul class='navbar-content'>
-                    <li><a class='navbar-link' href='#'>HOME</a></li>
-                    <li><a class='navbar-link' href='#'>ABOUT ME</a></li>
-                    <li><a class='navbar-link' href='#'>WORK</a></li>
-                    <li><a class='navbar-link' href='#'>SKILL</a></li>
+            <div class='menu'>
+                <ul class='menu-content'>
+                    <li><a class='menu-link' href='#home'>HOME</a></li>
+                    <li><a class='menu-link' href='#chi-sono'>CHI SONO</a></li>
+                    <li><a class='menu-link' href='#skill'>SKILL</a></li>
+                    <li><a class='menu-link' href='#progetti'>PROGETTI</a></li>
+                    <li><a class='menu-link' href='#contattami'>CONTATTAMI</a></li>
                 </ul>
                 <div class='dropdown'>
-                    <button class='dropbutton'></button>
+                    <button class='dropbutton'><img src='images/icon-dropdown.png'/></button>
                     <div class='dropdown-content'>
-                        <a href='#'>HOME</a>
-                        <a href='#'>ABOUT ME</a>
-                        <a href='#'>WORK</a>
-                        <a href='#'>SKILL</a>
+                        <a href='#home'>HOME</a>
+                        <a href='#chi-sono'>CHI SONO</a>
+                        <a href='#skill'>SKILL</a>
+                        <a href='#progetti'>PROGETTI</a>
+                        <a href='#contattami'>CONTATTAMI</a>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </nav>
+    </header>
     
-        
+    <section class='home' id='home'>
+        <div class='container-home'>
+            <div class='profile'>
+                <div class='pic-profile'><img src='images/profile.jpg' /></div>
+                <div class='dsc-profile'>
+                <span class='name logo'>ANDREA BELTRAMI</span>
+                <br/>
+                <p class='p-profile'>SVILUPPATORE SITI WEB</p>
+                </div>
+            </div>
+            <div class='container-scroll'>
+                <a href='#chi-sono'><button>CHI SONO &dArr;</button></a>
+            </div>
+        </div>
+    </section>
+    
+    <section class='section-pink' id='chi-sono'>
         <div class='container'>
-    
-        <div class='profile'>
-            <div class='profile-picture'><img src='images/profile.jpg' alt='profile picture'></div>
-            <div class='description'>
-                <h1>Andrea Beltrami | Full stack devloper</h1>
-                <p>Programmo siti web a 360°, partendo dal cuore dove troviamo script, SEO, e tante altre funzioni che permettono al nostro sito web di funzionare nel miglior modo possibile, per poi passare alla presentazione grafica e alla navigazione fluida, semplice e soddisfacente per i nostri utenti.</p>
+            <h1 class='title'>CHI SONO</h1>
+            <p>Mi chiamo Andrea Beltrami ho 24 anni e abito in Italia a Brescia. Sono un ragazzo socievole e mi piace molto lavorare in team. Attualmente lavoro in <a href='https://www.alfaacciai.it/'>Alfa Acciai</a> e nel tempo libero stò studiando presso <a href='https://www.start2impact.it/'>start2impact university</a> per imaparare a sviluppare siti web a 360° sia front-end che back-end e prossimamente allo sviluppo di applicazioni moblile.
+            </p>
+            <div class='container-scroll'>
+                <a href='#skill'><button>SKILL &dArr;</button></a>
             </div>
         </div>
-        
-        
-            
-            <div class='content-1'>
-                <div class='description'>
-                    <h1>Mi presento</h1>
-                    <p>Mi chiamo Andrea Beltrami e abito a Brescia (lombardia italy), ho uno spirito socievole e sono fan del team working, perché in fondo diciamolo, Un team con le risorse specializzate al dettaglio per ogni settore è un enorme potenziale per un progetto da tripla AAA.</p>
-                </div>
-                <div class='content-picture'><img src='images/about-me.png' alt='image'/></div>
-            </div>
-        
-            <div class='content-2'>
-                <div class='content-picture'><img src='images/work.png' alt='image'/></div>
-                <div class='description'>
-                    <h1>Working</h1>
-                    <p>Mi piace dare la giusta impostanza ad ogni progetto in modo da poter offrire un servizio preciso e curato anche nei minimi dettagli. Che tu abbia già un sito internet e lo voglia ottimizare con degli aggiornamenti oppure che tu stia pensando ad un nuovo progetto sarei lieto di poterti aiuare con la massima professionalità e flessibilità in modo da offrirti il miglior servizio possibile</p>
-                </div>
-            </div>
-            
-            <div class='content-1'>
-                <div class='description'>
-                    <h1>Contattami!</h1>
-                    <p>Scrivimi due righe riguardo al servizio che stai cercando!
-                        <br>
-                        Ricorda, anche la più piccola cosa verrà valorizzata al massimo perhcé non c'é soddisfazione più grande che poter aiutare qualcuno realizzare i propri prgetti!
-                        <br>
-                        Contattami utilizzando il form oppure scrivimi per email!</p>
-                    <div class='contact-button'><button><a href='#'>FORM</a></button><button><a href='#'>EMAIL</a></button></div>
-                </div>
-                <div class='content-picture'><img src='images/contact.png' alt='image'/></div>
-            </div>
-            
-        </div>
-        
+    </section>
     
-    <div class='section-footer'>
+    <section class='section-blue' id='skill'>
+        <div class='container'>
+            <h1 class='title'>SKILL</h1>
+            <p>Sono in grado di sviluppare un sito web scrivendo manulmente il codice di HTML e CSS in modo da poter personalizzarre anche il più piccolo dettaglio in esso contenuto.
+            <br/>
+            Posso creare un sito web da 0 oppure modificare e miglorare un sito web già esistente
+            </p>
+            <div class='container-skill'>
+                <div class='skill-card'><img src='images/html.png' alt='html logo'><span>HTML</span></div>
+                <div class='skill-card'><img src='images/css.png' alt='css logo'><span>CSS</span></div>
+                <div class='skill-card'><img src='images/sass.png' alt='sass logo'><span>SASS</span></div>
+                <div class='skill-card'><img src='images/bootstrap.png' alt='bootstrap logo'><span>BOOTSTRAP</span></div>
+                <div class='skill-card'><img src='images/seo.png' alt='seo logo'><span>SEO</span></div>
+                <div class='skill-card'><img src='images/github.png' alt='github logo'><span>GITHUB</span></div>
+            </div>
+            <div class='container-scroll'>
+                <a href='#progetti'><button>PROGETTI &dArr;</button></a>
+            </div>
+        </div>
+    </section>
+    
+    <section class='section-pink' id='progetti'>
+        <div class='container'>
+            <h1 class='title'>PROGETTI</h1>
+            
+            <p>In arrivo! Torna a trovarmi sul mio sito oppure visita il mio <a href='github.com'>github</a> per rimanere aggiornato!
+            </p>
+            <div class='load'></div>
+            <div class='container-scroll'>
+                <a href='#contattami'><button>CONTATTAMI &dArr;</button></a>
+            </div>
+        </div>
+    </section>
+    
+    <section class='section-blue' id='contattami'>
+        <div class='container'>
+            <h1 class='title'>CONTATTAMI</h1>
+            <p>Se posso esserti di aiuto scrivimi due righe&#33; Ricorda, anche la più piccola cosa verrà valorizzata al massimo perché non c'é soddisfazione più grande di poter aiutare qualcuno realizzare i propri progetti&#33; Contattami utilizzando il form qui sotto oppure scrivimi per email&#33;
+            </p>
+            <div class='form'></div>
+            <div class='container-scroll'>
+                <a href='#home'><button>HOME &uArr;</button></a>
+            </div>
+        </div>
+    </section>
+    
+    <footer class='section-footer'>
         <div class='footer'><p>Andrea Beltrami 2022</p></div>
-    </div>
+    </footer>
     
 </body>
 
