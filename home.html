@@ -1,8 +1,16 @@
-<html>
+<html lang='it'>
     
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta charset='utf-8'>
     <link rel='stylesheet' href='styles.css'>
+    <link rel='icon' type='image/x-icon' href='images/favicon.ico'>
+    <title>Andrea Beltrami | Web Developer</title>
+    <meta name='description' content='Stai cercando uno sviluppatore web? Sei nel posto giusto, creo siti a 360° dal lato back-end e front-end oppure se già hai un sito e vuoi migliorarlo contattami!'>
+    <meta name='robots' content='index, follow'>
+    <meta name='og:title' proprety='og:title' content='Andrea Beltrami | Web Developer'>
+    <meta name='og:description' proprety='og:description' content='Stai cercando uno sviluppatore web? Sei nel posto giusto, creo siti a 360° dal lato back-end e front-end oppure se già hai un sito e vuoi migliorarlo contattami!'>
+    <meta name='og:sitename' proprety='og:sitename' content='Andrea Beltrami | Web Developer'>
 </head>
     
 <body>
@@ -51,7 +59,7 @@
     <section class='section-pink' id='chi-sono'>
         <div class='container'>
             <h1 class='title'>CHI SONO</h1>
-            <p>Mi chiamo Andrea Beltrami ho 24 anni e abito in Italia a Brescia. Sono un ragazzo socievole e mi piace molto lavorare in team. Attualmente lavoro in <a href='https://www.alfaacciai.it/'>Alfa Acciai</a> e nel tempo libero stò studiando presso <a href='https://www.start2impact.it/'>start2impact university</a> per imaparare a sviluppare siti web a 360° sia front-end che back-end e prossimamente allo sviluppo di applicazioni moblile.
+            <p>Mi chiamo Andrea Beltrami ho 24 anni e abito in Italia a Brescia. Sono un ragazzo socievole e mi piace molto lavorare in team. Attualmente lavoro in <a href='https://www.alfaacciai.it/' target='_blank'>Alfa Acciai</a> e nel tempo libero stò studiando presso <a href='https://www.start2impact.it/' target='_blank'>start2impact university</a> per imaparare a sviluppare siti web a 360° sia front-end che back-end e prossimamente allo sviluppo di applicazioni moblile.
             </p>
             <div class='container-scroll'>
                 <a href='#skill'><button>SKILL &dArr;</button></a>
@@ -84,7 +92,7 @@
         <div class='container'>
             <h1 class='title'>PROGETTI</h1>
             
-            <p>In arrivo! Torna a trovarmi sul mio sito oppure visita il mio <a href='github.com'>github</a> per rimanere aggiornato!
+            <p>In arrivo! Torna a trovarmi sul mio sito oppure visita il mio <a href='#' target='_blank'>github</a> per rimanere aggiornato!
             </p>
             <div class='load'></div>
             <div class='container-scroll'>
@@ -96,17 +104,48 @@
     <section class='section-blue' id='contattami'>
         <div class='container'>
             <h1 class='title'>CONTATTAMI</h1>
-            <p>Se posso esserti di aiuto scrivimi due righe&#33; Ricorda, anche la più piccola cosa verrà valorizzata al massimo perché non c'é soddisfazione più grande di poter aiutare qualcuno realizzare i propri progetti&#33; Contattami utilizzando il form qui sotto oppure scrivimi per email&#33;
+            <p>Se posso esserti di aiuto scrivimi due righe&#33; Ricorda, anche la più piccola cosa verrà valorizzata al massimo perché non c'é soddisfazione più grande di poter aiutare qualcuno realizzare i propri progetti&#33;
+                <br/>
+                Contattami utilizzando il form qui sotto oppure scrivimi per email&#33;
             </p>
-            <div class='form'></div>
+            
+            <form action='mailto:andrea.beltrami@email.com' method='post' enctype='multipart/form-data' name='contactform' class='contact-form'>
+                <div class='form-row'>
+                    <div class='form-row-b row-dsk'>
+                        <label for='name'>NOME</label>
+                        <input id='name' name='nome' type='text' placeholder='Nome e Cognome' autocomplete='name' required>
+                    </div>
+                    <div class='form-row-b row-dsk'>
+                        <label for='email'>EMAIL</label>
+                        <input id='email' name='email' type='email' placeholder='tuamail@email.com' autocomplete='email' required>
+                    </div>
+                </div>
+                <div class='form-row'>
+                <div class='form-row-b row-msg'>
+                    <label for='message'>MESSAGGIO</label>
+                    <textarea id='message' name='messaggio' placeholder='Come posso esserti utile?' required></textarea>
+                </div>
+                    </div>
+                <div class='form-row'>
+                    <button type='submit'>INVIA</button>
+                </div>
+            </form>
+            
             <div class='container-scroll'>
                 <a href='#home'><button>HOME &uArr;</button></a>
             </div>
         </div>
     </section>
     
-    <footer class='section-footer'>
-        <div class='footer'><p>Andrea Beltrami 2022</p></div>
+    <footer class='footer'>
+        
+        <div class='social'>
+            <p>Visita il mio profilo linkedin</p>
+            <a href='https://www.linkedin.com/in/andrea-beltrami-819165252/' target='_blank'><img src='images/icon-linkedin.png' alt='icona-linkedin'></a>
+        </div>
+        <div class='copyright'>
+            <p>Copyright &copy; 2022 Andrea Beltrami</p>
+        </div>
     </footer>
     
 </body>
