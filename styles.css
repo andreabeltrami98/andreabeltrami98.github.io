@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 /* Navbar */
 
 .header {
@@ -29,6 +31,15 @@
     font-size: 25px;
     color: #ffffff;
     padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo img {
+    width: 45px;
+    height: 45px;
+    margin-right: 15px;
 }
 
 .menu {
@@ -106,6 +117,8 @@
     display: block;
 }
 
+
+
 /* Header */
 
 .home {
@@ -162,6 +175,7 @@
 }
 
 .name {
+    font-family: 'rubik_glitchregular';
     display: block;
     color: #000000;
     font-size: 45px;
@@ -190,6 +204,8 @@
     font-weight: bold;
     color: #f0f0f0;
 }
+
+
 
 /* Content */
 
@@ -273,11 +289,11 @@
 }
 
 .skill-card {
-    width: 200px;
-    height: 200px;
+    width: 110px;
+    height: 110px;
     background: rgba(240,240,255,0.6);
     border-radius: 25px;
-    margin: 20px;
+    margin: 15px 10px;
     box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
     display: flex;
     flex-direction: column;
@@ -285,19 +301,19 @@
 }
 
 .skill-card img {
-    height: 85%;
+    height: 75%;
     object-fit: contain;
     padding: 5px;
 }
 
 .skill-card span {
-    height: 30px;
+    height: 25px;
     background: rgba(1,1,1,0.1);
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     font-family: 'ibm_plex_monolight';
     text-align: center;
-    line-height: 30px;
+    line-height: 25px;
 }
 
 .load {
@@ -307,6 +323,8 @@
     background-size: cover;
     margin-bottom: 25px;
 }
+
+
 
 /* Contact Form */
 
@@ -376,6 +394,8 @@
     cursor: pointer;
 }
 
+
+
 /* Footer */
 
 .footer {
@@ -413,9 +433,76 @@
 
 /* Moblie Styles */
 
-@media only screen and (max-width: 800px) {
+
+@media only screen and (max-width: 390px) {
+    
+    .logo {
+        visibility: hidden;
+        font-size: 1px;
+    }
+    
+    .logo img {
+        visibility: visible;
+    }
+    
+    
     .menu-content {
         display: none;
+    }
+    
+    .pic-profile {
+        height: 150px;
+        max-width: 150px;
+    }
+    
+    .name {
+        font-size: 28px;
+    }
+    
+    .p-profile {
+        font-size: 21px;
+    }
+    
+    .container h1 {
+        font-size: 21px;
+        letter-spacing: 1px;
+        word-spacing: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .container p {
+        font-size: 18px;
+    }
+    
+    .container-scroll button {
+        width: auto;
+        height: auto;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    
+    .footer {
+        font-size: 15px;
+    }
+}
+
+
+
+
+/* Tablet Styles */
+
+@media only screen and (min-width:391px) and (max-width: 880px) {
+    
+    .menu-content {
+        display: none;
+    }
+    
+    .name {
+        font-size: 35px;
+    }
+    
+    .p-profile {
+        font-size: 22px;
     }
     
     .container h1 {
@@ -428,13 +515,28 @@
 
 /* Desktop Styles */
 
-@media only screen and (min-width: 801px) {
+@media only screen and (min-width: 881px) {
     .dropdown {
         display: none;
     }
     
     .navbar {
         width: 90%;
+    }
+    
+    .skill-card {
+        width: 200px;
+        height: 200px;
+        margin: 20px;
+    }
+    
+    .skill-card img {
+        height: 85%;
+    }
+    
+    .skill-card span {
+        height: 30px;
+        line-height: 30px;
     }
     
     .form-row {

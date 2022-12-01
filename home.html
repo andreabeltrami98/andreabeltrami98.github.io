@@ -1,23 +1,27 @@
 <html lang='it'>
     
 <head>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
     <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta http-equiv='x-ua-compatible' content='ie=edge'>
     <link rel='stylesheet' href='styles.css'>
     <link rel='icon' type='image/x-icon' href='images/favicon.ico'>
     <title>Andrea Beltrami | Web Developer</title>
     <meta name='description' content='Stai cercando uno sviluppatore web? Sei nel posto giusto, creo siti a 360° dal lato back-end e front-end oppure se già hai un sito e vuoi migliorarlo contattami!'>
     <meta name='robots' content='index, follow'>
     <meta name='og:title' proprety='og:title' content='Andrea Beltrami | Web Developer'>
-    <meta name='og:description' proprety='og:description' content='Stai cercando uno sviluppatore web? Sei nel posto giusto, creo siti a 360° dal lato back-end e front-end oppure se già hai un sito e vuoi migliorarlo contattami!'>
+    <meta name='og:description' proprety='og:description' content='Stai cercando uno sviluppatore web? Sei nel posto giusto, creo siti a 360° sia back-end che front-end oppure se già hai un sito e vuoi migliorarlo contattami!'>
     <meta name='og:sitename' proprety='og:sitename' content='Andrea Beltrami | Web Developer'>
+    <meta name='og:image' proprety='og:image' href='images/icon-logo.png'>
+    <meta name='og:type' content='website'>
 </head>
     
 <body>
     
     <header class='header'>
         <nav class='navbar'>
-            <div class='logo'>ANDREA BELTRAMI</div>
+            
+            <div class='logo'><img class='' src='images/icon-logo.png'/>ANDREA BELTRAMI</div>
             <div class='menu'>
                 <ul class='menu-content'>
                     <li><a class='menu-link' href='#home'>HOME</a></li>
@@ -45,7 +49,7 @@
             <div class='profile'>
                 <div class='pic-profile'><img src='images/profile.jpg' /></div>
                 <div class='dsc-profile'>
-                <span class='name logo'>ANDREA BELTRAMI</span>
+                <span class='name'>ANDREA BELTRAMI</span>
                 <br/>
                 <p class='p-profile'>SVILUPPATORE SITI WEB</p>
                 </div>
@@ -109,7 +113,7 @@
                 Contattami utilizzando il form qui sotto oppure scrivimi per email&#33;
             </p>
             
-            <form action='mailto:andrea.beltrami@email.com' method='post' enctype='multipart/form-data' name='contactform' class='contact-form'>
+            <form method='post' name='contactform' action='contact.php' class='contact-form'>
                 <div class='form-row'>
                     <div class='form-row-b row-dsk'>
                         <label for='name'>NOME</label>
@@ -123,11 +127,11 @@
                 <div class='form-row'>
                 <div class='form-row-b row-msg'>
                     <label for='message'>MESSAGGIO</label>
-                    <textarea id='message' name='messaggio' placeholder='Come posso esserti utile?' required></textarea>
+                    <textarea id='message' name='message' placeholder='Come posso esserti utile?' required></textarea>
                 </div>
                     </div>
                 <div class='form-row'>
-                    <button type='submit'>INVIA</button>
+                    <button type='submit' value='send form'>INVIA</button>
                 </div>
             </form>
             
