@@ -8,6 +8,8 @@ html, body {
     height: 100%;
 }
 
+
+
 /* Navbar */
 
 .header {
@@ -90,8 +92,6 @@ html, body {
     height: 100%;
 }
 
-
-
 .dropdown-content {
     display: none;
     position: absolute;
@@ -125,13 +125,9 @@ html, body {
 
 .home {
     width: 100%;
-<<<<<<< HEAD
     height: 100%;
     margin: 0;
     padding-top: 30px;
-=======
-    min-height: 100%;
->>>>>>> 70c0eadf3546ea67baf643f2e922f23d63110376
     background-image: url(images/bg-home.jpg);
     background-size: cover;
     background-position: center;
@@ -214,11 +210,15 @@ html, body {
     color: #f0f0f0;
 }
 
+.btn-home {
+    max-height: 30%;
+}
 
 
 /* Content */
 
-.section-pink {
+.section-pink,
+.section-blue {
     width: 100%;
     min-height: 100%;
     background-image: url(images/bg-pink.jpg);
@@ -230,16 +230,12 @@ html, body {
     align-items: center;
 }
 
+.section-pink {
+    background-image: url(images/bg-pink.jpg);
+}
+
 .section-blue {
-    width: 100%;
-    min-height: 100%;
     background-image: url(images/bg-blue.jpg);
-    background-size: cover;
-    background-position: center;
-    padding: 60px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .container {
