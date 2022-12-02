@@ -125,13 +125,9 @@ html, body {
 
 .home {
     width: 100%;
-<<<<<<< HEAD
     height: 100%;
     margin: 0;
     padding-top: 30px;
-=======
-    min-height: 100%;
->>>>>>> 70c0eadf3546ea67baf643f2e922f23d63110376
     background-image: url(images/bg-home.jpg);
     background-size: cover;
     background-position: center;
